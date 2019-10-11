@@ -1,0 +1,214 @@
+/*top*/
+nav.navbar .user-size.dropdown-menu li.welcome a.edit-profil .la {
+	line-height: inherit;
+}
+
+nav.navbar .user-size.dropdown-menu a.logout{
+	width: 40px;
+    height: 40px;
+    margin-top: -10px;
+    line-height: 40px!important;
+}
+
+nav.navbar .user-size.dropdown-menu a.logout .ti-power-off{
+
+    line-height: 40px!important;
+}
+
+/*login*/
+.boxlog{
+	position: relative;
+}
+.boxlogin{
+	position: absolute;
+	z-index: 1; 
+	right: 0;
+	left: 0; 
+	top:9em; 
+	height: 35px;	
+	line-height: 35px;
+	padding: 0;
+	background-color:; 
+	text-align: center;
+	/*border-radius: 35px;*/
+
+}
+
+.upem{
+	display: none;
+}
+
+
+
+div.bgnav{
+	/*border-right: 3px solid #E76C90 !important;*/
+	background-color: #E76C90 !important;
+	color: white !important;
+}
+div.bgnav a {
+	color: white !important;
+}
+div.bgnav a i:hover{
+	color: #2C304D !important;
+}
+
+/*.img{
+	border: 1px solid black;
+	text-align: center;
+}*/
+
+.imgprint{
+	width: 120px !important; 
+	height: 100px !important;
+}
+
+.imgfloat{
+	width: 175px !important;
+	height: 140px !important;
+	float: left !important;
+	display: inline-block;
+	margin-left: 25px !important;
+}
+
+.judulper{
+	word-spacing: 10px !important; 
+	letter-spacing: 7px !important; 
+	font-size: 50px !important;
+	font-family: serif !important;
+}
+
+.ket{
+	font-size: 17px;
+	word-spacing: 4px;
+	letter-spacing: 1px;
+}
+
+.subjudul{
+	text-transform: uppercase !important;
+	/*letter-spacing: 1px !important;*/
+	font-family: serif !important;
+	word-spacing: 1px !important;
+}
+
+p.h3{
+	color: #625386 !important;
+	font-family: serif !important;
+	letter-spacing: 1px;
+	font-weight: bold;
+
+}
+
+.head{
+	border-bottom: 4px solid #71688D;
+	position: relative;
+}
+
+.head::after{
+	content: '';
+	position: absolute;
+	width: 100%;
+	bottom: -8px;
+	border-bottom: 2px solid #71688D;
+}
+
+.borderr{
+	border-bottom: 2px solid #71688D;
+	padding-bottom: 4px;
+}
+
+.pertr{
+	line-height: 7px !important;
+}
+
+td.satu{
+	width: 170px;
+}
+
+td#satu{
+	width: 185px;
+}
+
+td.dua{
+	width: 1px;
+}
+
+div.isi{
+	width: 95% !important;
+}
+.isi p{
+	text-indent: 40px;
+	text-align: justify;
+	color: #625386 !important;
+	font-weight: bold;
+	line-height: 30px;
+}
+
+p.nama{
+	text-indent: 0 !important; 
+	margin-top: 70px !important; 
+	margin-bottom: 0 !important;
+}
+
+div.border-sign{
+	border-bottom: 2px solid #625386;
+}
+
+.tombol span i{
+	font-size : 23px !important;
+	cursor: pointer;
+}
+
+@media print{
+	/*@page{
+		size: auto;
+		margin: 0mm;
+	}*/
+
+	button.back, button.print, a.go-top, a.footerr, .print{
+		display: none !important;
+	}
+
+	.contentprint{
+		z-index: 99999;
+		margin-top: -100px !important;
+		margin-bottom: -10px !important;
+	}
+	.printbawah{
+		padding-bottom: 10px !important;
+		margin-top: -60px !important;
+		box-sizing: border-box;
+	}
+	.pnm{
+		text-indent: 22px !important;
+	}
+
+	/*printsrp*/
+	.pemb{
+		margin-top: -22px !important;
+	}
+
+	.kotak{
+		width: 348px !important;
+		height: 118px !important;
+		margin-bottom: 75px !important;
+		margin-right: -110px;
+		margin-top: -20px;
+		padding-top: 0 !important;
+		padding: 0 30px;
+		box-sizing: border-box;
+		float: right;
+	}
+}
+
+/*periksa*/
+i.signper:hover{
+	box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+
+.canvaspas{
+	overflow-x: scroll;
+}
+
+.hidden{
+	display: none !important;
+}
